@@ -155,19 +155,19 @@
 
 - 由于每次随机生成的数不同，导致每次运算结果都不一样
 - 并行、多线程运算完毕后都进行一步除法，输出加速比
-- <img src="C:\Users\Administrator\Desktop\1.PNG" alt="1" style="zoom: 67%;" />
+- <img src="https://www.hz-heze.com/wp-content/uploads/2020/04/1.png" alt="1" style="zoom: 67%;" />
 
 
 
-- <img src="C:\Users\Administrator\Desktop\2.PNG" alt="2" style="zoom:67%;" />
+- <img src="https://www.hz-heze.com/wp-content/uploads/2020/04/2.png" alt="2" style="zoom:67%;" />
 
 
 
-- <img src="C:\Users\Administrator\Desktop\3.PNG" alt="3" style="zoom:67%;" />
+- <img src="https://www.hz-heze.com/wp-content/uploads/2020/04/3.png" alt="3" style="zoom:67%;" />
 
 
 
-- <img src="C:\Users\Administrator\Desktop\4.PNG" alt="4" style="zoom:67%;" />
+- <img src="https://www.hz-heze.com/wp-content/uploads/2020/04/4.pngG" alt="4" style="zoom:67%;" />
 
 
 
@@ -185,9 +185,9 @@
 
 ## 3. 最终实验结果
 
-<img src="C:\Users\Administrator\Desktop\11.PNG" alt="11" style="zoom:67%;" />
+<img src="https://www.hz-heze.com/wp-content/uploads/2020/04/11.png" alt="11" style="zoom:67%;" />
 
-<img src="C:\Users\Administrator\Desktop\12.PNG" alt="12" style="zoom:67%;" />
+<img src="https://www.hz-heze.com/wp-content/uploads/2020/04/12.png" alt="12" style="zoom:67%;" />
 
 
 
