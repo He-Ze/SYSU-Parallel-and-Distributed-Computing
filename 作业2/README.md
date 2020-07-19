@@ -488,13 +488,13 @@ int main()
 
 ① cache miss
 
-<img src="C:\Users\Administrator\Desktop\338c197c479ebe2c807fb159c8f1f27.jpg" alt="338c197c479ebe2c807fb159c8f1f27" style="zoom:80%;" />
+<img src="https://www.hz-heze.com/wp-content/uploads/2020/04/338c197c479ebe2c807fb159c8f1f27.jpg" alt="338c197c479ebe2c807fb159c8f1f27" style="zoom:80%;" />
 
 可以看出，一般算法最简单，没有递归所以cache miss最少；而分治算法和Strassen就相对多很多了，时间也长很多；而这两个相比由于Strassen算法更复杂，cache miss也就多一些。 
 
 ② IPC
 
-<img src="C:\Users\Administrator\Desktop\2cc171a9775c0b78c8eb47f23b5cb72.jpg" alt="2cc171a9775c0b78c8eb47f23b5cb72" style="zoom:80%;" />
+<img src="https://www.hz-heze.com/wp-content/uploads/2020/04/2f27d1da84c5b25aec82e3298d8c1f0.jpg" alt="2cc171a9775c0b78c8eb47f23b5cb72" style="zoom:80%;" />
 
 可以看到，一般算法的IPC为2.86，分治算法为2.21，Strassen为2.27。一般算法和另两种相比稍大，一个周期执行的指令稍多，这应该是因为运行的是256x256的矩阵，相对还是较小，所以相对有递归的算法更快一些。而另两个相比，可以看出Strassen比单纯的分治算法要快一些的。
 
@@ -502,14 +502,10 @@ int main()
 
 ③ mem_load 
 
-<img src="C:\Users\Administrator\Desktop\2f27d1da84c5b25aec82e3298d8c1f0.jpg" alt="2f27d1da84c5b25aec82e3298d8c1f0" style="zoom:80%;" />
+<img src="https://www.hz-heze.com/wp-content/uploads/2020/04/2cc171a9775c0b78c8eb47f23b5cb72.jpg" alt="2f27d1da84c5b25aec82e3298d8c1f0" style="zoom:80%;" />
 
 这方面三者均为0。
 
 
 
 **问题二、三已在上面说明**
-
-# 四、遇到的问题及解决办法
-
-本次作业并未遇到什么问题
