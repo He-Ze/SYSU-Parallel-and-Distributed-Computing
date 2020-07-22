@@ -14,7 +14,7 @@
 
 - 我的运行系统是`Win10`，编译器为`MinGW-w64`，版本如下：
 
-  <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业5\图片\8.PNG" alt="8" style="zoom: 50%;" />
+  <img src="图片/8.PNG" alt="8" style="zoom: 50%;" />
 
 - 我使用的`IDE`为`JetBrains`的`Clion`，该`IDE`需要写`CMakeLists`，内容如下：
 
@@ -33,7 +33,7 @@
 
 - `CPU`为`i7-9750H`，有`6`核`12`线程
 
-  <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业5\图片\1.PNG" alt="1" style="zoom:67%;" />
+  <img src="图片/1.PNG" alt="1" style="zoom:67%;" />
 
 ### 2. 程序实现
 
@@ -131,7 +131,7 @@
 
 以上便是同一矩阵用不同线程数运行的设计，对于不同大小的矩阵用相同线程数运行，我下载了https://math.nist.gov/MatrixMarket/data/Harwell-Boeing/psadmit/psadmit.html下的四种稀疏矩阵，如下图：
 
-<img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业5\图片\9.PNG" alt="9" style="zoom:80%;" />
+<img src="图片/9.PNG" alt="9" style="zoom:80%;" />
 
 算法设计与上面相同，只不过是读不同的文件。
 
@@ -139,29 +139,29 @@
 
 - 同一矩阵用不同线程数运行，输出不同线程数的运行时间以及相对于串行计算的加速比
 
-  <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业5\图片\2.PNG" alt="2" style="zoom: 50%;" />
+  <img src="图片/2.PNG" alt="2" style="zoom: 50%;" />
 
 - 不同大小的矩阵用相同线程数运行，输出不同矩阵大小所对应的运行时间
 
-  <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业5\图片\3.PNG" alt="3" style="zoom: 50%;" />
+  <img src="图片/3.PNG" alt="3" style="zoom: 50%;" />
 
 ### 4. 结果可视化
 
 - 我将上面的运行结果在`Matlab`中输出可视化结果图像，命令如下：
 
-  <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业5\图片\7.PNG" alt="7" style="zoom:80%;" />
+  <img src="图片/7.PNG" alt="7" style="zoom:80%;" />
 
 - 线程数—运行时间
 
-  <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业5\图片\4.png" alt="4" style="zoom:150%;" />
+  <img src="图片/4.png" alt="4" style="zoom:150%;" />
 
 - 线程数—加速比
 
-  <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业5\图片\5.png" alt="5" style="zoom:150%;" />
+  <img src="图片/5.png" alt="5" style="zoom:150%;" />
 
 - 矩阵大小-运行时间
 
-  ![6](C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业5\图片\6.png)
+  ![6](图片/6.png)
 
 ### 5. 结果分析
 
@@ -255,13 +255,13 @@
 
 ### 2. 运行结果
 
-<img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业5\图片\10.PNG" alt="10" style="zoom: 50%;" />
+<img src="图片/10.PNG" alt="10" style="zoom: 50%;" />
 
 ### 3. 结果可视化
 
 和上一个一样，使用Matlab输出图像结果：
 
-<img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业5\图片\11.png" alt="11"  />
+<img src="图片/11.png" alt="11"  />
 
 ### 4. 结果分析
 
@@ -365,7 +365,7 @@
 
 - 使用`mpicc`编译再用`mpirun`运行，结果如下：
 
-<img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业5\图片\13.PNG" alt="13" style="zoom:150%;" />
+<img src="图片/13.PNG" alt="13" style="zoom:150%;" />
 
 我用了12个线程跑，每一组的结果都已输出，最后得到平均带宽为`10155MBps`，时延为`0.000315s`，测试结束。
 
