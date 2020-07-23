@@ -71,7 +71,7 @@
 
 直接在VS里运行：
 
-<img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业6\1.PNG" alt="1" style="zoom:67%;" />
+<img src="图片/1.PNG" alt="1" style="zoom:67%;" />
 
 可以看到将结果都输出且均正确。
 
@@ -85,7 +85,7 @@ vector_add<<<1,2048>>>(dC, dA, dB, N);
 
 可以看到如下报错：
 
-![2](C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业6\2.PNG)
+![2](图片/2.PNG)
 
 > When do you catch the error if you remove the `cudaDeviceSynchronize()` call? 
 
@@ -103,13 +103,13 @@ dC[0] = 1;
 
 运行后直接报错：
 
-![3](C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业6\3.PNG)
+![3](图片/3.PNG)
 
 > What if you try to access host memory from the kernel? 
 
 我定义了一个全局变量，并在核函数中让此变量加一，编译时出现如下错误：
 
-![4](C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业6\4.PNG)
+![4](图片/4.PNG)
 
 ## CUDA-homework-2
 
@@ -164,33 +164,33 @@ dC[0] = 1;
 
 - 运行
 
-  <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业6\5.PNG" alt="5" style="zoom:67%;" />
+  <img src="图片/5.PNG" alt="5" style="zoom:67%;" />
 
 > Experiment with different grid and block sizes and compare the execution times.
 
 - `block sizes=1`
 
-  <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业6\6.PNG" alt="6" style="zoom:67%;" />
+  <img src="图片/6.PNG" alt="6" style="zoom:67%;" />
 
 - `block sizes=2`
 
-  <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业6\7.PNG" alt="7" style="zoom:67%;" />
+  <img src="图片/7.PNG" alt="7" style="zoom:67%;" />
 
 - `block sizes=4`
 
-   <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业6\8.PNG" alt="8" style="zoom:67%;" />
+   <img src="图片/8.PNG" alt="8" style="zoom:67%;" />
 
 - `block sizes=8`
 
-  <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业6\9.PNG" alt="9" style="zoom:67%;" />
+  <img src="图片/\9.PNG" alt="9" style="zoom:67%;" />
 
 - `block sizes=16`
 
-  <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业6\10.PNG" alt="10" style="zoom:67%;" />
+  <img src="图片/\10.PNG" alt="10" style="zoom:67%;" />
 
 - `block sizes=32`
 
-  <img src="C:\Users\03031\iCloudDrive\大二下\并行与分布式\作业\作业6\11.PNG" alt="11" style="zoom:67%;" />
+  <img src="图片/11.PNG" alt="11" style="zoom:67%;" />
 
   可以看到，当`block sizes`增加时，运行时间先减小后小幅增加。
 
